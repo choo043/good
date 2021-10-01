@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    long double A, B;
+    cin >> A;
+    cin >> B;
+    cout << fixed;
+    cout.precision(15);
+    cout << A / B << endl;
+}
