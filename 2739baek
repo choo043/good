@@ -1,0 +1,15 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int A, m;
+    cin >> A;
+    
+    for(m = 1; m <= 9; m++)
+    {
+        cout << A << " * ";
+        cout << m << " = ";
+        cout << A * m <<endl;
+    }
+}
